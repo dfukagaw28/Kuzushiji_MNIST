@@ -6,6 +6,11 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+numpy = "*"
+fastai = "*"
+bottleneck = "*"
+torch = "==1.1.0"
+torchvision = "==0.2.2.post3"
 
 [requires]
 python_version = "3.6"
